@@ -46,5 +46,20 @@ int main()
     }
   }
 
+  // Draws an x of length len.
+  int len;
+
+  cout << "Enter a length: ";
+  cin >> len;
+
+  while (len % 2 == 0)
+  {
+    cout << "Please enter an odd number: ";
+    cin >> len;
+  }
+
+  for (int i=0; i<len; i++)
+  {
+    if (i == 0 ||  
 return 0;
 }
